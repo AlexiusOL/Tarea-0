@@ -1,0 +1,57 @@
+html {
+    background-color: rgb(14, 13, 13);
+}
+body {
+    width: 400px;
+    margin: 0 auto;
+}
+h3, p, h2 {
+    color: white;
+    font-family:'Segoe UI', sans-serif;
+}
+/* menu */
+#menu {
+    width: 300px;
+    margin: 14px 14px 10px 10px;
+}
+#menu li {
+    border: #d3d3d3 1px solid;
+    background-color: rgb(39, 46, 147);
+    margin-bottom: 10px;
+    font-size: 90%;
+    text-align: center;
+    line-height: 40px;
+    list-style-type: none;
+}
+#menu a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family:'Segoe UI', sans-serif;
+}
+#menu li:hover {
+    background-color: white;
+}
+#menu li:hover a {
+    color: #000;
+}
+/* Para los forms */
+.texto {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    background-color:#747976fe ;
+    display: inline-block;
+    border: 1px white solid;
+    box-sizing: border-box;
+    
+}
+.boton {
+    width: 100%;
+    background-color: rgb(39, 46, 147);
+    color: white;
+    padding: 12px 20px; 
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}

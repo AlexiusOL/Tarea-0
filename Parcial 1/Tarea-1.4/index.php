@@ -1,4 +1,4 @@
-
+<!-- Alexis Ortiz Lopez 4to Programacion  -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -64,7 +64,7 @@
         //OTOÑO 21 SEPTIEMBRE 20 DICIEMBRE
         //INVIERNO 21 DE DICIEMBRE 20 MARZO
 
-        echo "<p> RESULTADO: ";
+        echo "<p>Dia: " . $dia . "<br>mes: " . $mes . "<br> RESULTADO: ";
         if($mes < 1 or $mes > 12) {
             echo "NO EXISTE";
         }
@@ -221,6 +221,7 @@
         echo "<br>";
         $a = 7;
         $b = 57;
+        echo "a: " . $a . "<br>b:" . $b . "<br>";
         if(($a == 7 and $b != 7) or ($a != 7 and $b == 7)) echo "<p> RESULTADO: " . 1 . "</p>";
         if($a == 7 and $b == 7) echo "<p> RESULTADO: " . 2 . "</p>";
         if($a != 7 and $b != 7) echo "<p> RESULTADO: " . 0 . "</p>";
@@ -266,7 +267,7 @@
         $z = -7;
 
         echo "<br>";
-
+        echo "x: " . $x . "<br>y: " . $y . "<br>z: " . $z . "<br>";
         echo "<p> RESULTADO: " . max(max($x, $y), $z) . "</p>";
     ?>
 </body>

@@ -1,0 +1,28 @@
+/* Alexis Ortiz Lopez 4to Programacion */
+html {
+    background-color: rgb(14, 13, 13);
+}
+
+h3, p, h2, h1 {
+    color: white;
+    font-family:'Segoe UI', sans-serif;
+    font-size: 110%;
+}
+.resultados {
+    color: rgb(63, 63, 210);
+    text-transform: uppercase;
+}
+table {
+    border-collapse: collapse;
+    width: 90%;
+}
+
+table, th, td {
+    border: 1px solid white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    color: white;
+}

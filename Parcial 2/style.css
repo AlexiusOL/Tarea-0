@@ -1,0 +1,136 @@
+/* Alexis Ortiz Lopez 4to Programacion */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body {
+    background-color: #46484f;
+    min-height: 600px;
+}
+
+
+/* Lo de arriba */
+.fondo-titulo {
+    padding-top: 7px;
+    width: auto;
+    height: 80px;
+    margin: -5px auto;
+    background: #293352;
+    border-bottom: solid 7px #333030;
+}
+
+.fondo-titulo h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-family: ABeeZee, sans-serif;
+}
+
+
+/* Imagencilla */
+#img img:hover {
+    -webkit-transform: scale(1.10);
+    -moz-transform: scale(1.10);
+    -o-transform: scale(1.10);
+    -ms-transform: scale(1.10);
+    transform: scale(1.10);
+}
+
+#img img {
+    height: 200px;
+    width: 180px;
+}
+
+#img {
+    margin: 0px;
+    padding-left: 85px;
+    position: absolute;
+}
+
+/* contenido */
+#contenido {
+    background: rgb(0,0,0,0.6);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 120px;
+    font-size: 20px;
+    /* margin-top: 1em; */
+    font-family: ABeeZee, sans-serif;
+    min-width: 100%;
+}
+#contenido .contenedor-bolas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding-top: 90px;
+}
+
+#contenido h3 {
+    margin: 0.5em;
+    color: #ddcd21;
+}
+
+
+/* Las bolas */
+.bola {
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: ABeeZee, sans-serif;
+}
+
+.bola img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: .2em solid #54898C;
+    margin-bottom: 0.5em;
+    transition: all;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.bola img:hover {
+    box-shadow: 0px 0px 20px rgb(80,161,195);
+    border: 1px solid rgb(80,161,195);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+
+/* Para los problemas */
+.problema-container {
+    padding-bottom: 33px;
+}
+
+input{
+    margin-top: 10px;
+}
+
+
+/* El footer */
+footer {
+    background-color: #293352;
+    /* min-height: 125px; */
+    display: flex;
+    justify-content: center;
+    /* padding-bottom: 0; */
+    color: rgb(255, 255, 255);
+    font-family: ABeeZee, sans-serif;
+}
+footer p {
+    font-size: large;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
